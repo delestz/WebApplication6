@@ -1,0 +1,41 @@
+﻿{
+  "Products": [
+    {
+      "ProductName": "Sprite",
+      "Category": "drink",
+      "Cpecific": "carbonated soft drink, lime and lemon flavored, owned by the American company The Coca-Cola Company. Sprite was originally marketed as a lemon-flavored soda.",
+      "Price": 24.21
+    },
+    {
+      "ProductName": "Carry",
+      "Category": "food",
+      "Cpecific": "a variety of common in southern India dishes of vegetables or meat, which are usually eaten with rice or bread. The term is widely used, especially in the Western world, and is the name for almost any dish prepared with spices and based on the sauce in the Asian style.",
+      "Price": 162.13
+    },
+    {
+      "ProductName": "Fanta",
+      "Category": "drink",
+      "Cpecific": "non-alcoholic, gas-free cool drinks, like the viroblya of The Coca-Cola Company. Nine in all the light to be afraid of close to 70 different species to drink, albeit the usual regional brand.",
+      "Price": 31.32
+    },
+    {
+      "ProductName": "Camicadze",
+      "Category": "food",
+      "Cpecific": "A traditional Japanese dish is made from rice treated with rice vinegar or salt and a variety of fillings or layers, including seafood, but may include meat, vegetables, seaweed, mushrooms or eggs. Sushi can be raw, cooked or marinated.",
+      "Price": 322.13
+    },
+    {
+      "ProductName": "Coca-Cola",
+      "Category": "drink",
+      "Cpecific": "Return of the legend: Coca-Cola Vanilla is now on sale again! Where could I buy? The one and only, such any and familiar taste from childhood. Real nostalgia ♥",
+      "Price": 26.34
+    },
+    {
+      "ProductName": "Shveps",
+      "Category": "drink",
+      "Cpecific": "first brand of carbonated soft drinks in the world with more than two centuries of history. This is one of the three brands of soft drinks included in the Interbrand 100 rating of the most expensive brands in the world.",
+      "Price":  16.23
+    }
+  ]
+
+}

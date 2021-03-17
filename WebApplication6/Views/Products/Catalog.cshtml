@@ -1,0 +1,45 @@
+﻿@using ASP.MagazineVievModel
+@using DataLogic.Models
+@using System
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Catalog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model MagazineModel
+
+
+<div>
+    <br />
+    <div class="container align-content-center">
+        <a asp-action="Drinks" class="btn btn-primary active" role="button" aria-pressed="true">Drinks</a>
+        <a asp-action="Food" role="button" class="btn btn-outline-secondary">Food</a>
+    </div>
+    <br />
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            @foreach (ProductModel product in Model.Prroducts.ToList())
+            {
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="~/BuffImages/@string.Format(product.ProductName + ".jpg")" width="100" height="350" preserveAspectRatio="xMidYMid slice" focusable="true"></img>
+
+                        <div class="card-body">
+                            <p class="card-text">@product.Cpecific</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a  class="btn btn-sm btn-outline-dark btn-success" >Buy</a>
+                                    <a  class="btn btn-sm btn-outline-secondary">Info</a>
+                                </div>
+                                <section>Price: @product.Price UAH     </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <br />
+</div>
+
+

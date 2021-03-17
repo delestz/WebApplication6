@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\.vs\ProjectSettings.json" />
+    <Content Include="wwwroot\css\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.tools" Version="5.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="wwwroot\css\.vs\slnx.sqlite" />
+    <None Include="wwwroot\Images\bag.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\.vs\css\v16\" />
+    <Folder Include="wwwroot\BuffImages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BSLogic\BSLogic.csproj" />
+  </ItemGroup>
+
+</Project>

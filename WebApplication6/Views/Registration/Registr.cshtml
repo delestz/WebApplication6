@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Registr";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/css/StyleSheet1.css" rel="stylesheet"/>
+<main class="form-signin" id="registr">
+    <form action="SaveChanges">
+        <h1 class="h3 mb-3 fw-normal">Please input your contact</h1>
+        <label for="inputEmail" class="visually-hidden">Email address</label>
+        <input type="text" id="inputEmail" class="form-control" placeholder="Email address"  name="email">
+        <label for="inputPassword" class="visually-hidden">Password</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="Name"  name="name">
+        <label for="inputPhone" class="visually-hidden">Phone Number</label>
+        <input type="number" id="inputNumber" class="form-control" placeholder="Phone"  name="phone">
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Registration</button>
+    </form>
+</main>
+
